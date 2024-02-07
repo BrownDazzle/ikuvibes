@@ -1,5 +1,5 @@
 
-const URL = `${process.env.NEXT_PUBLIC_API_URL}/products`;
+const URL = `https://ikuvibes.vercel.app/api/products`;
 
 const getProduct = async (id: string) => {
     try {

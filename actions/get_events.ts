@@ -1,5 +1,5 @@
 
-const URL = `${process.env.NEXT_PUBLIC_API_URL}/events`;
+const URL = `https://ikuvibes.vercel.app/api/events`;
 
 const getEvents = async () => {
     const res = await fetch(`${URL}`);

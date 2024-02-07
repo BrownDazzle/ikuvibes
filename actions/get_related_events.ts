@@ -1,7 +1,7 @@
 
 import qs from "query-string";
 
-const URL = `${process.env.NEXT_PUBLIC_API_URL}/related`;
+const URL = `https://ikuvibes.vercel.app/api/related`;
 
 interface Query {
     categoryId?: string;

@@ -1,5 +1,5 @@
 
-const URL = `${process.env.NEXT_PUBLIC_API_URL}/categories`;
+const URL = `https://ikuvibes.vercel.app/api/categories`;
 
 const getCategory = async () => {
     const res = await fetch(`${URL}`);

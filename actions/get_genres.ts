@@ -1,5 +1,5 @@
 
-const URL = `${process.env.NEXT_PUBLIC_API_URL}/genres`;
+const URL = `https://ikuvibes.vercel.app/api/genres`;
 
 const getGenre = async () => {
     const res = await fetch(`${URL}`);

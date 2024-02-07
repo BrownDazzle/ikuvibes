@@ -1,5 +1,5 @@
 
-const URL = `${process.env.NEXT_PUBLIC_API_URL}/views`;
+const URL = `https://ikuvibes.vercel.app/api/views`;
 
 const getViewsCount = async (id: string) => {
     const res = await fetch(`${URL}/${id}`);
